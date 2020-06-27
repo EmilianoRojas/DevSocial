@@ -23,8 +23,9 @@ const Login = ({ login, isAuthenticated }) => {
 
   //Redirect if logged in
   if (isAuthenticated) {
-    return <Redirect to='/dashboard' />
+    return <Redirect to="/dashboard" />;
   }
+
 
   return (
     <Fragment>
@@ -64,10 +65,10 @@ const Login = ({ login, isAuthenticated }) => {
 Login.propTypes = {
   login: PropTypes.func.isRequired,
   isAuthenticated: PropTypes.bool
-}
+};
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   isAuthenticated: state.auth.isAuthenticated
-})
+});
 
 export default connect(mapStateToProps, { login })(Login);
