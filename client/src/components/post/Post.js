@@ -19,7 +19,7 @@ const Post = ({ getPost, post: { post, loading }, match }) => {
     <CommentForm postId={post._id} />
     <div className="comments">
       {post.comments.map(comment => (
-        <CommentItem key={comment._id} comment={comment} post={post._id} />
+        <CommentItem key={comment._id} comment={comment} postId={post._id} />
       ))}
     </div>
   </Fragment>
