@@ -30,35 +30,35 @@ const ProfileTop = ({ profile: {
         {
           social && social.twitter && (
             <a href={social.twitter} target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-twiiter fa-2x"></i>
+              <i className="fab fa-twiiter fa-2x"></i>
             </a>
           )
         }
         {
           social && social.facebook && (
             <a href={social.facebook} target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-facebook fa-2x"></i>
+              <i className="fab fa-facebook fa-2x"></i>
             </a>
           )
         }
         {
           social && social.linkedin && (
             <a href={social.linkedin} target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-linkedin fa-2x"></i>
+              <i className="fab fa-linkedin fa-2x"></i>
             </a>
           )
         }
         {
           social && social.youtube && (
             <a href={social.youtube} target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-youtube fa-2x"></i>
+              <i className="fab fa-youtube fa-2x"></i>
             </a>
           )
         }
         {
           social && social.instagram && (
             <a href={social.youtube} target="_blank" rel="noopener noreferrer">
-              <i className="fas fa-instagram fa-2x"></i>
+              <i className="fab fa-instagram fa-2x"></i>
             </a>
           )
         }
